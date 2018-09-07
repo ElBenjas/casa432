@@ -6,10 +6,12 @@ class Contact extends Component {
       <div class="row">
 
         <div class="col">
-          <h1>Contacto</h1>
+          <div align="center">
+            <h1>Contacto</h1>
 
-          <p>Escribenos a <a target="_blank" href="mailto:contaco@casa432.com" rel="noopener noreferrer">contaco@casa432.com</a></p>
-          <p>ó llena este formulario para contactarnos.</p>
+            <p>Escribenos a <a target="_blank" href="mailto:contaco@casa432.com" rel="noopener noreferrer">contaco@casa432.com</a></p>
+            <p>ó llena este formulario para contactarnos.</p>
+          </div>
         </div>
 
         <div class="col">
