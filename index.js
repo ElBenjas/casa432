@@ -7,6 +7,6 @@ import Main from "./Main";
 import "./index.css";
 
 ReactDOM.render(
-  <Main />,
+  <Main equipo='benjamin' />,
   document.getElementById("root")
 );
