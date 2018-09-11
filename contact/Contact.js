@@ -7,7 +7,7 @@ class Contact extends Component {
 
         <div class="col">
           <div align="center">
-            <h1>Contacto</h1>
+            <h1>{this.props.header}</h1>
 
             <p>Escribenos a <a target="_blank" href="mailto:contaco@casa432.com" rel="noopener noreferrer">contaco@casa432.com</a></p>
             <p>ó llena este formulario para contactarnos.</p>
@@ -46,12 +46,6 @@ class Contact extends Component {
               <small id="mensajeHelp" class="form-text text-muted">Ejemplo: 'No me han enviado nada de lo que necesito.'.</small>
             </div>
 
-            <div class="form-group">
-              <label for="mensaje">Mensaje</label>
-              <textarea type="text" class="form-control" id="mensaje" aria-describedby="mensajeHelp" placeholder="Aquí va tu mensaje." rows="5"></textarea>
-              <small id="mensajeHelp" class="form-text text-muted">Ejemplo: 'No me han enviado nada de lo que necesito.'.</small>
-            </div>
-
             <div align="center">
               <button type="submit" class="btn btn-primary">Submit</button>
             </div>
@@ -61,6 +55,10 @@ class Contact extends Component {
       </div>
     );
   }
+}
+
+Contact.defaultProps = {
+  header: 'Contacto'
 }
 
 export default Contact;

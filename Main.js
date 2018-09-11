@@ -3,7 +3,7 @@ import { Route, NavLink, HashRouter } from "react-router-dom";
 
 import Home from "./Home";
 import Projects from "./Projects";
-import We from "./We";
+import We from "./who_we_are/We";
 import Contact from "./contact/Contact";
 
 
